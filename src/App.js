@@ -27,6 +27,7 @@ function App() {
               // eslint-disable-next-line eqeqeq
               dir={contextLang == "en" ? "ltr" : "rtl"}
             >
+              {/* routing */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/MoviFlex" element={<Home />} />
@@ -46,4 +47,3 @@ function App() {
 }
 
 export default App;
-
